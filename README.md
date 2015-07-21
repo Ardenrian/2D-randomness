@@ -10,8 +10,9 @@ Different kinds of particles:
 - and third, the ones that are moved by the program itself (whether by the user through controls, or a pre defined function)
 It is interesting to see that we can rather classify those particles by, say, shape, or really anything else. This is merely one way to do it.
 
-Different kinds of links between particles:
+Different kinds of interactions between particles:
 - gravitational
+- collision
 - elastic
 - a special kind of elastic, where k is infinite.
 

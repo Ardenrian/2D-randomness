@@ -1,6 +1,6 @@
 # 2D-randomness
 
-Tools that will be used: C++, Qt, on a Linux distro (I will probably be using Mint Cinnamon, which does not change one thing I guess)
+Tools that will be used: C++, Qt, on a Linux distro. Violet used for the diagrams.
 
 So the whole idea is building a world where everything follows very simple physics laws. Elastic law, maybe gravitation law. We might add drag.
 

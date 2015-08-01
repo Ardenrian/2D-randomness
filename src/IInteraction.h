@@ -11,6 +11,7 @@
 class IInteraction {
 public:
 	IInteraction();
+	virtual void applyForce()=0;
 	virtual ~IInteraction();
 };
 

@@ -12,7 +12,10 @@ class Vector {
 public:
 	Vector();
 	Vector(double x_, double y_);
-	void add(Vector vector_);
+	Vector add(Vector vector_);
+	Vector multiply(double k_);
+	double distanceTo(Vector vector2_);
+	Vector directionTo(Vector vector2_);
 	double get_x() const;
 	double get_y() const;
 	virtual ~Vector();

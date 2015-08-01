@@ -15,7 +15,9 @@
 
 class Particle: IObject {
 public:
-	Particle();
+	Particle(Vector position_, Vector speed_, double mass_, std::vector<IInteraction*> interactions_, Vector force_= Vector(0,0));
+	Vector getPosition();
+	void addForce(Vector vector_);
 	virtual ~Particle();
 
 private:

@@ -13,10 +13,9 @@
 
 class IObject {
 public:
-	IObject();
 	virtual Vector getPosition()=0;
 	virtual void addForce(Vector vector_)=0;
-	virtual ~IObject();
+	virtual ~IObject(){};
 };
 
 #endif /* IOBJECT_H_ */

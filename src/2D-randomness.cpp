@@ -10,6 +10,7 @@
 using namespace std;
 #include "Particle.h"
 #include "Vector.h"
+#include "IEther.h"
 
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!

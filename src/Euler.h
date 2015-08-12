@@ -8,8 +8,9 @@
 #ifndef EULER_H_
 #define EULER_H_
 
+#include "IMethod.h"
 
-class Euler {
+class Euler:IMethod {
 public:
 	Euler();
 	virtual ~Euler();
